@@ -20,7 +20,7 @@ setup(
     description="Semantic-Aware Tokenization for Efficient Long-Context Language Modeling",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/dongliu/SemToken",
+    url="https://github.com/FastLM/SemToken",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",

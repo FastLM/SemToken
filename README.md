@@ -27,7 +27,7 @@ SemToken achieves impressive results across multiple benchmarks:
 
 ```bash
 # Install from source
-git clone https://github.com/dongliu/SemToken.git
+git clone https://github.com/FastLM/SemToken.git
 cd SemToken
 pip install -e .
 
@@ -308,7 +308,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ```bash
 # Clone repository
-git clone https://github.com/dongliu/SemToken.git
+git clone https://github.com/FastLM/SemToken.git
 cd SemToken
 
 # Install in development mode
