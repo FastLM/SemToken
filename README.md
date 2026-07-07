@@ -300,40 +300,9 @@ If you use SemToken in your research, please cite our paper:
 }
 ```
 
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-### Development Setup
-
-```bash
-# Clone repository
-git clone https://github.com/FastLM/SemToken.git
-cd SemToken
-
-# Install in development mode
-pip install -e .
-
-# Install development dependencies
-pip install -r requirements-dev.txt
-
-# Run tests
-python -m pytest tests/
-
-# Run linting
-flake8 semtoken/
-black semtoken/
-```
-
 ## License
 
 This project is licensed under the MIT License。
-
-## Acknowledgments
-
-- Thanks to the Sentence-BERT team for semantic embedding models
-- Inspired by recent work on efficient attention mechanisms
-- Built on top of the excellent Transformers library
 
 ---
 

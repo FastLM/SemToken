@@ -1,0 +1,17 @@
+@inproceedings{liu-yu-2026-semtoken,
+    title = "{S}em{T}oken: Semantic-Aware Tokenization for Efficient Long-Context Language Models",
+    author = "Liu, Dong  and
+      Yu, Yanxuan",
+    editor = "Mohammad, Saif M.  and
+      Ousidhoum, Nedjma",
+    booktitle = "Proceedings of the 15th Joint Conference on Lexical and Computational Semantics (*{SEM} 2026)",
+    month = jul,
+    year = "2026",
+    address = "San Diego, California, United States",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.starsem-conference.1/",
+    doi = "10.18653/v1/2026.starsem-conference.1",
+    pages = "1--12",
+    ISBN = "979-8-89176-413-2",
+    abstract = "Long-context language models face efficiency challenges as context lengths expand. Traditional tokenization methods like BPE operate on frequency statistics, ignoring semantic structure and over-tokenizing redundant spans. We propose \textbf{SemToken}, a semantic-aware tokenization framework that adaptively compresses token sequences based on semantic density. SemToken uses lightweight encoders to identify and merge semantically equivalent spans, allocates variable granularity based on local semantic density, and dynamically adjusts token budgets during generation. Evaluations on WikiText-103, LongBench, and BookSum demonstrate 2.4$\times$ token reduction, 1.9$\times$ inference speedup, and 67{\%} memory reduction while preserving or improving model quality. SemToken integrates seamlessly with existing models and achieves multiplicative benefits when combined with FlashAttention (up to 2.7$\times$ total speedup)."
+}
